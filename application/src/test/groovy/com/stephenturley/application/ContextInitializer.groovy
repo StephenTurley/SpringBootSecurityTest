@@ -1,3 +1,5 @@
+package com.stephenturley.application
+
 import com.stephenturley.application.ExampleConfiguration
 import geb.spock.GebReportingSpec
 import org.springframework.boot.test.IntegrationTest
