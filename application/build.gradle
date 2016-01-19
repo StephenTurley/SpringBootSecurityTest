@@ -3,6 +3,9 @@ apply plugin: 'java'
 apply plugin: 'groovy'
 
 dependencies {
+    compile "org.springframework.security:spring-security-config:$springSecurityVersion"
+    compile "org.springframework.security:spring-security-web:$springSecurityVersion"
+
     testCompile "org.springframework:spring-test:$springVersion"
     testCompile "org.gebish:geb-core:0.12.2"
     testCompile "org.gebish:geb-spock:0.12.2"
