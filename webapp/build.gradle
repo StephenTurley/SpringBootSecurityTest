@@ -1,4 +1,5 @@
 apply plugin: "spring-boot"
+
 dependencies{
     runtime project(":config")
 }

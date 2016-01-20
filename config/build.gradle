@@ -2,9 +2,9 @@ apply plugin: 'java'
 
 dependencies {
     compile "org.projectlombok:lombok:$lombokVersion"
+    compile "com.sendgrid:sendgrid-java:$sendGridVersion"
+    compile "org.mockito:mockito-core:$mockitoVersion"
     compile "org.springframework.security:spring-security-config:$springSecurityVersion"
     compile "org.springframework.security:spring-security-web:$springSecurityVersion"
-    compile "org.springframework.data:spring-data-mongodb:$springDataMongoVersion"
-    compile "org.springframework.security:spring-security-crypto:$springSecurityVersion"
     compile project(":controller")
 }
