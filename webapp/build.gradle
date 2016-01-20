@@ -5,5 +5,5 @@ dependencies{
 }
 
 springBoot {
-    mainClass = 'com.stephenturley.application.ExampleConfiguration'
+    mainClass = 'com.stephenturley.test.ExampleConfiguration'
 }

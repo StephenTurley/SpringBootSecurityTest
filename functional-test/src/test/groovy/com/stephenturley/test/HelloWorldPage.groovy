@@ -1,4 +1,4 @@
-package com.stephenturley.application
+package com.stephenturley.test
 import geb.Page
 
 class HelloWorldPage extends Page {
