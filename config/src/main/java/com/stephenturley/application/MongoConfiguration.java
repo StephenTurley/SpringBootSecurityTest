@@ -12,7 +12,7 @@ import javax.annotation.Resource;
 import java.util.function.Function;
 
 @Configuration
-@EnableMongoRepositories(basePackages = "com.enscribed")
+@EnableMongoRepositories(basePackages = "com.stephenturley")
 @Slf4j
 public class MongoConfiguration extends AbstractMongoConfiguration {
 

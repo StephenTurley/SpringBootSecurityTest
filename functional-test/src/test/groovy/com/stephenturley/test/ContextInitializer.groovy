@@ -1,6 +1,7 @@
 package com.stephenturley.test
 
 import com.stephenturley.application.ExampleConfiguration
+import com.stephenturley.application.MongoConfiguration
 import geb.spock.GebReportingSpec
 import org.springframework.boot.test.IntegrationTest
 import org.springframework.boot.test.SpringApplicationContextLoader
