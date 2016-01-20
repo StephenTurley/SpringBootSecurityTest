@@ -8,7 +8,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
 
 @RestController
 @Slf4j
-public class Controller {
+public class SomeController {
 
     @RequestMapping(value = "/derp", method = GET)
     public String foo(){
