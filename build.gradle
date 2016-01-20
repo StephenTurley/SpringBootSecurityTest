@@ -50,7 +50,6 @@ subprojects {
         testCompile "junit:junit:$junitVersion"
         testCompile "org.mockito:mockito-core:$mockitoVersion"
         testCompile "org.hamcrest:hamcrest-all:$hamcrestVersion"
-        testCompile "org.springframework.security:spring-security-test:$springSecurityVersion"
     }
 
 }
