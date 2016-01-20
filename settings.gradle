@@ -1,3 +1,6 @@
 rootProject.name = 'SpringBootSecurityTest'
+include ':webapp'
+include ':controller'
 include ':application'
 include ':functional-test'
+

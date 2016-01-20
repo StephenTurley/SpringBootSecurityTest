@@ -1,0 +1,8 @@
+apply plugin: "spring-boot"
+dependencies{
+    runtime project(":application")
+}
+
+springBoot {
+    mainClass = 'com.stephenturley.application.ExampleConfiguration'
+}
