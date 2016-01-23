@@ -1,4 +1,4 @@
 dependencies{
-    compile "org.springframework.data:spring-data-mongodb:$springDataMongoVersion"
+    compile "org.springframework.security:spring-security-crypto:$springSecurityVersion"
     compile "org.projectlombok:lombok:$lombokVersion"
 }

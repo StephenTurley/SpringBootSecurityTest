@@ -4,9 +4,9 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.annotation.PostConstruct;
 import javax.annotation.Resource;
 
-import static org.springframework.web.bind.annotation.RequestMethod.GET;
 import static org.springframework.web.bind.annotation.RequestMethod.POST;
 
 @RestController
@@ -14,10 +14,11 @@ import static org.springframework.web.bind.annotation.RequestMethod.POST;
 public class SomeController {
 
     @Resource
-    private DerpRepository derpRepository;
+    private DerpConverter converter;
 
-    @RequestMapping(value = "/derp", method = POST)
-    public void foo(String foo){
-        derpRepository.save(new Derp(foo));
+    @PostConstruct
+    public void doStuff(){
+        String foo = converter.convert("foobar");
     }
+
 }
