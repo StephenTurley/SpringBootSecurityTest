@@ -1,4 +1,6 @@
 dependencies{
     compile "org.springframework.security:spring-security-crypto:$springSecurityVersion"
     compile "org.projectlombok:lombok:$lombokVersion"
+    compile "org.projectlombok:lombok:$lombokVersion"
+    compile "org.springframework.boot:spring-boot-starter-data-mongodb:$springBootVersion"
 }
